@@ -12,7 +12,6 @@
 This is a modern Cookiecutter template that can be used to initiate a Python project with all the necessary tools for development, testing, and deployment. It supports the following features:
 
 - [uv](https://docs.astral.sh/uv/) for dependency management
-- Supports both [src and flat layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/).
 - CI/CD with [GitHub Actions](https://github.com/features/actions)
 - Pre-commit hooks with [pre-commit](https://pre-commit.com/)
 - Code quality with [ruff](https://github.com/charliermarsh/ruff), [mypy](https://mypy.readthedocs.io/en/stable/) and [deptry](https://github.com/fpgmaas/deptry/).
@@ -21,7 +20,6 @@ This is a modern Cookiecutter template that can be used to initiate a Python pro
 - Documentation with [MkDocs](https://www.mkdocs.org/)
 - Compatibility testing for multiple versions of Python with [tox-uv](https://github.com/tox-dev/tox-uv)
 - Containerization with [Docker](https://www.docker.com/) or [Podman](https://podman.io/)
-- Development environment with [VSCode devcontainers](https://code.visualstudio.com/docs/devcontainers/containers)
 
 ---
 
@@ -51,7 +49,5 @@ Follow the prompts to configure your project. Once completed, a new directory co
 
 ## Acknowledgements
 
-This project is partially based on [Audrey
-Feldroy\'s](https://github.com/audreyfeldroy)\'s great
-[cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
-repository.
+This project is partially based on [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
+repository and the [cookiecutter-uv](https://github.com/fpgmaas/cookiecutter-uv) repository.
