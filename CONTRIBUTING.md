@@ -103,14 +103,7 @@ tox
 This requires you to have multiple versions of Python installed.
 This step is also triggered in the CI/CD pipeline, so you could also choose to skip this step locally.
 
-10. Reflect your changes in the documentation. Update relevant files in the `docs` directory, and potentially the `README`.
-    You can check the updated documentation with:
-
-```bash
-make docs
-```
-
-11. Commit your changes and push your branch to GitHub:
+10. Commit your changes and push your branch to GitHub:
 
 ```bash
 git add .
@@ -118,7 +111,7 @@ git commit -m "Your detailed description of your changes."
 git push origin name-of-your-bugfix-or-feature
 ```
 
-12. Submit a pull request through the GitHub website.
+11. Submit a pull request through the GitHub website.
 
 # Pull Request Guidelines
 
