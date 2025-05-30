@@ -23,6 +23,7 @@ repos:
     rev: "v1.15.0"
     hooks:
       - id: mypy
+        pass_filenames: false  # Ensure mypy runs on the entire project, and follows the configuration in pyproject.toml
 
   - repo: https://github.com/fpgmaas/deptry
     rev: "0.23.0"
