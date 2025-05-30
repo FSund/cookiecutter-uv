@@ -18,14 +18,3 @@ repos:
       - id: ruff
         args: [--exit-non-zero-on-fix]
       - id: ruff-format
-
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.15.0"
-    hooks:
-      - id: mypy
-        pass_filenames: false  # Ensure mypy runs on the entire project, and follows the configuration in pyproject.toml
-
-  - repo: https://github.com/fpgmaas/deptry
-    rev: "0.23.0"
-    hooks:
-      - id: deptry
